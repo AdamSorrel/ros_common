@@ -4,7 +4,7 @@ all: installed
 
 FILENAME = bfl-31655.tar.gz
 TARBALL = build/$(FILENAME)
-TARBALL_URL = http://pr.willowgarage.com/downloads/$(FILENAME)
+TARBALL_URL = http://static.strawlab.org/downloads/$(FILENAME)
 SOURCE_DIR = build/bfl-tar
 UNPACK_CMD = tar xzf
 MD5SUM_FILE = $(FILENAME).md5sum
